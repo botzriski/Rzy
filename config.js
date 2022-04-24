@@ -1,5 +1,5 @@
 // Thanks For Allah
-// Rzy.bot
+// Rizky.bot
 
 
 let fs = require('fs')
@@ -40,8 +40,8 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Rzy-bot'
-global.author = 'Rzy-bot'
+global.packname = 'Rizky-bot'
+global.author = 'Rizky-bot'
 
 global.wait = '「 ⏱️ 」Harap tunggu sebentar...'
 global.eror = '「❗」Server ERROR!'
