@@ -1,7 +1,7 @@
-let handler = async (m, { conn, text, participants, isAdmin, isOwner }) => {
+let handler = async (m, { conn, text, participants, isOwner, isOwner }) => {
   if (m.isGroup) {
-    if (!(isAdmin || isOwner)) {
-      global.dfail('admin', m, conn)
+    if (!(isOwner || isOwner)) {
+      global.dfail('owner', m, conn)
       throw false
     }
   } else {
